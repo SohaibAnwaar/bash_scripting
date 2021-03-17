@@ -1,0 +1,1 @@
+find sample/ -type f | xargs -I {} sha1sum {}

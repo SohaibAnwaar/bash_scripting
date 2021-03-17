@@ -1,0 +1,1 @@
+for f in sample/*; do ls -la "$f"; done

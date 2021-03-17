@@ -1,0 +1,41 @@
+prelab exercies:
+A) Shahsum of dict.txt is 5e9fd2bc62ddb90f02d80cfd875cd2a4e722ebbb  dict.txt
+B) shasum value after replace small p with capital p : 3baf34b55ba02dfd5b5ae3d01ba5201c28db024e  dict.txt
+C) 3baf34b55ba02dfd5b5ae3d01ba5201c28db024e
+   5e9fd2bc62ddb90f02d80cfd875cd2a4e722ebbb
+   0001001000000000000000000000000000000000
+   on 2 places hash value matches on 4th index and 7th index
+D) We can match files hashes while transfering the files from one place to another that is a really amazing characteristic.
+E) Shasum value for the small txt file ae9635a45b0c47bd383891e0721c0287fc973919  small_dict..txt 
+F) numbers of charaters are same in larger and smaller file we know that larger the hash greater the security so we can 
+   even secure our smaller files which have even 1 word init.
+
+
+
+Exercise 1
+A) 1st column
+
+The first letter d does the content is directory or file. On the screenshot above, Desktop, Documents, Downloads and lynis-1.3.8 are directories. If it - (minus sign) it means that the content is file. While if it equal with l (small L character), means the content is link file.
+
+The next 9 character is about file permission. With the first 3 rwx characters are for Owner of the file, the second 3 characters are for Group owner of the file and the last 3 characters are for worldwide access to the file.
+
+2nd column
+This tells us about how many link to this file
+
+3rd column
+This tells us about who is the owner of the file/directory
+
+4th column
+This tells us about who the group owner of the file/directory
+5th column
+This tells us about the size of the file/directory in bytes unit. Except for directories, the size will always count as 4096 bytes
+
+6th column
+This tells us about the last time and date the file is modified
+
+7th column
+This tells us the filename or directory name
+
+
+B) command shasum print the hash of the file and file name.
+C) 
