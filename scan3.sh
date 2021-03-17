@@ -34,7 +34,7 @@ echo 'sample/'$MASTER 'sample'$TMP
 difference=$(diff 'sample/'$MASTER 'sample'$TMP )
 echo $difference 
 
-# Removing Files
-# get_file=$(sed -r 's/[0-9]{1,10}$//'<<<$TMP)
-# find sample | grep $get_file| xargs -I {} rm -f {};
-# exit 1
+Removing Files
+get_file=$(sed -r 's/[0-9]{1,10}$//'<<<$TMP)
+find sample | grep $get_file| xargs -I {} rm -f {};
+exit 1

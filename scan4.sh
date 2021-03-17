@@ -45,6 +45,10 @@ for f in sample/*;
     done
 
 
+echo "Changed Files"
+echo 'sample/'$MASTER 'sample'$TMP
+difference=$(diff 'sample/'$MASTER 'sample'$TMP )
+echo $difference 
 
 # Removing Files
 get_file=$(sed -r 's/[0-9]{1,10}$//'<<<$TMP)
