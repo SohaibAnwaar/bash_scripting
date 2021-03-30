@@ -3,6 +3,7 @@ MASTER=("Master.txt")
 GENMASTER=0
 DELMASTER=0
 flag1=0
+flag2=0
 flags=''
 
 while getopts "dg" OPTION
@@ -21,12 +22,11 @@ fi
 # G flag
 if [[ "$flags" == "g" ]]
     then
-        echo "File Generation"
         GENMASTER=1
 
         if [[ -f 'sample/'$MASTER ]]
             then
-                echo "file already exists"
+                echo "Master file exists, Please delete it"
         else
             echo "file created"
             touch 'sample/'$MASTER
